@@ -81,7 +81,8 @@ Y.use([
 
       // hash based page loading
        pageLoader();
-      Y.on('hashchange', pageLoader);*/
+      Y.on('hashchange', pageLoader);
+      */
 
       // project pagination
       Y.one('#projectNav').delegate('click', function(e) {
