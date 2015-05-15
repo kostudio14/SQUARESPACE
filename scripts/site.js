@@ -77,10 +77,10 @@ Y.use([
       thumbLoader();
 
       // thumbnail click events
-      thumbClickHandler();
+     // thumbClickHandler();
 
       // hash based page loading
-      pageLoader();
+      // pageLoader();
       Y.on('hashchange', pageLoader);
 
       // project pagination
