@@ -76,12 +76,12 @@ Y.use([
     if (Y.one('#projectPages')) {
       thumbLoader();
 
-      // thumbnail click events
-     // thumbClickHandler();
+     /* // thumbnail click events
+      thumbClickHandler();
 
       // hash based page loading
-      // pageLoader();
-      Y.on('hashchange', pageLoader);
+       pageLoader();
+      Y.on('hashchange', pageLoader);*/
 
       // project pagination
       Y.one('#projectNav').delegate('click', function(e) {
