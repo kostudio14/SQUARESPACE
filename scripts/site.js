@@ -76,13 +76,13 @@ Y.use([
     if (Y.one('#projectPages')) {
       thumbLoader();
 
-     /* // thumbnail click events
-      thumbClickHandler();
+     // thumbnail click events
+     // thumbClickHandler();
 
       // hash based page loading
-       pageLoader();
-      Y.on('hashchange', pageLoader);
-      */
+      // pageLoader();
+      //Y.on('hashchange', pageLoader);
+    
 
       // project pagination
       Y.one('#projectNav').delegate('click', function(e) {
@@ -243,7 +243,7 @@ Y.use([
   // GLOBAL FUNCTIONS
   var dynamicLoaders = {};
 
-  function pageLoader() {
+ // function pageLoader() {
 
     if (window.location.hash && window.location.hash != '#') {
       var urlId = window.location.hash.split('#')[1];
@@ -413,7 +413,7 @@ Y.use([
   }
 
 
-  function thumbClickHandler() {
+  //function thumbClickHandler() {
     // only fetch pages via dynamic-loader
     Y.all('#projectThumbs a.project').each(Y.bind(function(elem) {
       var href = elem.getAttribute('href'),
